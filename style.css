@@ -567,7 +567,7 @@ a + a{
 .ico-cunt {
     float: left;
     width: 100%;
-    padding: 55px 60px 60px;
+    padding: 44px 20px 60px;
 }
 .ico-cunt > h5 {
     color: #fff;
@@ -578,7 +578,7 @@ a + a{
 .ico-rasd {
     float: left;
     width: 100%;
-    padding: 0 52.5px 35px;background-color: #ffb506;
+    padding: 0 28px 25px;background-color: #ffb506;
 }
 .ico-rasd > a {
     display: inline-block;
@@ -587,7 +587,7 @@ a + a{
     font-weight: 700;
     font-size: 13px;
     color: #282835;
-    padding: 18px 40px 16px;
+    padding: 18px 20px 16px;
     position: relative;
     top: -27.5px;
     margin-bottom: 5px;
@@ -603,7 +603,8 @@ border-radius: 30px;
 .ico-rasd > i {
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 14px;position: relative;
+top: -9px;
 }
 .progress-wrp {
     float: left;
@@ -671,6 +672,41 @@ border-radius: 5px;
 .exchange-listing .listing .col-sm:first-child::before {
     border-left: none;
 }
+
+
+/*=========================== Counter ========================*/
+
+.countdown {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.countdown > li {
+  display: inline-block;
+  color: #fff;
+  margin: 0 10px;
+}
+.countdown > li span {
+  font-family: "exo 2";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: initial;
+  margin-bottom: 3px;
+  display: inline-block;
+}
+.countdown > li p {
+  color: inherit;
+  text-transform: uppercase;
+  font-family: "exo 2";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: initial;
+  margin-bottom: 0;
+}
+
+
+
 
 /*======================================== vertical  social =============================*/
 
@@ -1735,6 +1771,10 @@ textarea.form-control {
 body{
 	padding-top:80px;
 }
+.ico-cunt {
+    padding: 36px 9px 52px;
+}
+
 .navbar{
 	padding:15px 0;
 }
