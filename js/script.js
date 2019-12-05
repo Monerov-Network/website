@@ -47,7 +47,15 @@ Version      : 1.0
 		);
 		wow.init();
 	}
-	
+	 //===== Count Down =====//
+  if ($.isFunction($.fn.downCount)) {
+    $('.countdown').downCount({
+      date: '12/13/2019 23:00:00',
+      offset: +5
+    });
+  }
+
+ 
 	// Back to top 		
 	jQuery('.back-top a').on('click', function(event) {
 		jQuery('body,html').animate({scrollTop:0},800);
