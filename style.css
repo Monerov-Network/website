@@ -817,10 +817,10 @@ border-radius: 5px;
 .chart-label li span.chart-bg2{font-weight:700;color:#fff;margin-right:10px; }
 .chart-label li span.chart-bg3{font-weight:100;color: #e3e4ed;margin-right:10px;font-size:11px;font-family:'Comfortaa', 'Poppins', sans-serif;display:block;line-height:16px;padding-top:7px;}
 .chart-label li img {position:absolute;left:-160px;top:13px;}
-.chart-label li:nth-child(1) img {left:-198px;top:12px;width:97%;}
-.chart-label li:nth-child(2) img {left:-179px;top:-44px;width:86%;height:59px;}
-.chart-label li:nth-child(3) img {left:-117px;top:-8px;width:57%;}
-.chart-label li:nth-child(4) img {left:-183px;top:-21px;width:90%;}
+.chart-label li:nth-child(1) img {left:-191px;top:12px;width:97%;}
+.chart-label li:nth-child(2) img {left:-163px;top:-15px;width:86%;height:27px;}
+.chart-label li:nth-child(3) img {left:-117px;top:-35px;width:57%;}
+.chart-label li:nth-child(4) img {left:-171px;top: -32px;width:87%;height:43px;}
 .chart-gap .xs-single-title{text-align:center;color:#fff;margin-bottom:0;font-weight:200; }
 
 /*------------------ token-distribution-v3 ---------------*/
