@@ -97,9 +97,9 @@ Version      : 1.0
         var myChartTwo = new Chart(ctxTwo, {
             type: 'doughnut',
             data: {
-                labels: ["Reserved Fund", "To Community", "Minable Coins", "Airdrop to XMR Holders"],
+                labels: ["Reserved Fund", "To Community", "1:1 Swap to XMV Holders", "Minable Coins"],
                 datasets: [{
-                    data: [1.95, 3.90, 33.15, 61],
+                    data: [5, 5, 20, 70],
                     backgroundColor: [
                         '#c13cbd',
                         '#4a8df8',
