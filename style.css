@@ -581,7 +581,7 @@ a + a{
     padding: 0 28px 25px;background-color: #ffb506;
 }
 .ico-rasd > a {
-    display: inline-block;
+    display: block;
     background-color: #fff;
     font-family: "exo 2";
     font-weight: 700;
@@ -592,7 +592,8 @@ a + a{
     top: -27.5px;
     margin-bottom: 5px;
 	-webkit-border-radius: 30px;
-border-radius: 30px;
+border-radius: 30px;    max-width: 80%;
+    margin: auto;
 }
 .ico-rasd > span {
     display: block;
