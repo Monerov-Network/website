@@ -50,7 +50,7 @@ Version      : 1.0
 	 //===== Count Down =====//
   if ($.isFunction($.fn.downCount)) {
     $('.countdown').downCount({
-      date: '12/13/2019 23:00:00',
+      date: '12/16/2019 00:00:00',
       offset: +5
     });
   }
