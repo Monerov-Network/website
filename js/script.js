@@ -125,7 +125,7 @@ Version      : 1.0
 	
 	var XMVrawPrice;
 
-	var url = "https://api.coingecko.com/api/v3/coins/monerov"; // Change this to your URL
+	//var url = "https://api.coingecko.com/api/v3/coins/monerov"; // Change this to your URL
 /*	
 fetch(url)
     .then(function(response) {
@@ -155,7 +155,7 @@ fetch(url)
   
 	var url2 = "http://www.coincalculators.io/api.aspx?name=monerov&hashrate=40000000"; // Change this to your URL
 	
-	 
+	 var url = "https://api.coingecko.com/api/v3/coins/monerov"; // Change this to your URL
 
 
 fetch(url, {
@@ -178,7 +178,7 @@ fetch(url, {
                   price_USD.innerHTML = USDPrice;
 				  
 				   var Hashrate = document.getElementById('hashrate');
-				  var Hashratec =  (data.currentNethash/1048576).toFixed(2) + ' MH/s'; 
+				  var Hashratec =  (data.currentNethash/1048576).toFixed(2) + ' G/s'; 
                //   Hashrate.innerHTML = Hashratec;
 				   
 				  var XMVReward = document.getElementById('xmvreward');
@@ -271,6 +271,28 @@ fetch(url, {
 	 
 	  $("#table-details").slideDown(200);
     });
-	  
+	    
+         
+     
+		 	
 		
 })(jQuery); 
+ 
+	var t=new Swiper(".swiper-container",{
+		slidesPerView:5,
+		grabCursor:!0,
+		//centeredSlides:true,
+		navigation:{
+			nextEl:".next-slide",
+			prevEl:".prev-slide"
+		}
+		,breakpoints:{
+			576:{slidesPerView:1},767:{slidesPerView:2},992:{slidesPerView:3}
+			}
+			});
+		t.slideTo(3);
+		
+	$("body").width()<992&&t.slideTo(5),
+	$("body").resize(function(){
+	$("body").width().width()<992&&t.slideTo(4,1e3,!1)
+		})
