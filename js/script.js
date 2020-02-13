@@ -290,9 +290,9 @@ fetch(url, {
 			576:{slidesPerView:1},767:{slidesPerView:2},992:{slidesPerView:3}
 			}
 			});
-		t.slideTo(3);
+		t.slideTo(4);
 		
-	$("body").width()<992&&t.slideTo(5),
+	$("body").width()<992&&t.slideTo(6),
 	$("body").resize(function(){
 	$("body").width().width()<992&&t.slideTo(4,1e3,!1)
 		})
