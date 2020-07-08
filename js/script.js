@@ -182,7 +182,8 @@ fetch(url, {
                //   Hashrate.innerHTML = Hashratec;
 				   
 				  var XMVReward = document.getElementById('xmvreward');
-				  var XMVrw = (data.block_time_in_minutes*60).toFixed(3);
+			//	  var XMVrw = (data.block_time_in_minutes*60).toFixed(3);
+				  var XMVrw = "7.89";
                   XMVReward.innerHTML = XMVrw;
 				  var table_data = document.getElementById('table-details');  
 										  
@@ -290,9 +291,8 @@ fetch(url, {
 			576:{slidesPerView:1},767:{slidesPerView:2},992:{slidesPerView:3}
 			}
 			});
-		t.slideTo(4);
-		
-	$("body").width()<992&&t.slideTo(6),
+		t.slideTo(8);
+	$("body").width()<992&&t.slideTo(8),
 	$("body").resize(function(){
 	$("body").width().width()<992&&t.slideTo(4,1e3,!1)
 		})
