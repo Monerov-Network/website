@@ -2087,4 +2087,5 @@ h1{font-size:36px;}
 @media (min-width: 1200px) {
 #features .row .col-sm-6:nth-last-child(-n+3) .features-item{margin-bottom:0;}
 .chart-gap{position:relative;left:-50px;top:-30px;}
+.social-list-sec .container {max-width: 90%;}
 }
